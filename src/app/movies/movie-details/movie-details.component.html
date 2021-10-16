@@ -1,0 +1,19 @@
+<h2 class="title">FILM CREW</h2>
+<div fxLayout="column">
+  <movie-detail [name]="'Director'" [value]="movie.Director"></movie-detail>
+<movie-detail [name]="'Writers'" [isList]="true" [value]="movie.Writer"></movie-detail>
+<movie-detail [name]="'Actors'" [isList]="true" [value]="movie.Actors"></movie-detail>
+</div>
+<h2 class="title">DETAILS</h2>
+<div fxLayout="column">
+  <movie-detail [name]="'Rated'" [value]="movie.Rated"></movie-detail>
+  <movie-detail [name]="'Genre'" [isList]="true" [value]="movie.Genre"></movie-detail>
+  <movie-detail [name]="'Released'" [value]="movie.Released"></movie-detail>
+  <movie-detail [name]="'Production'" [value]="movie.Production"></movie-detail>
+  <movie-detail [name]="'Box Office'" [value]="movie.BoxOffice"></movie-detail>
+  <movie-detail [name]="'Awards'" [value]="movie.Awards"></movie-detail>
+  <movie-detail [name]="'Website'" [value]="movie.Website"></movie-detail>
+  <movie-detail [name]="'Country'" [value]="movie.Country"></movie-detail>
+  <movie-detail [name]="'Language'" [value]="movie.Language"></movie-detail>
+  <movie-detail [name]="'DVD'" [value]="movie.DVD"></movie-detail>
+  </div>
