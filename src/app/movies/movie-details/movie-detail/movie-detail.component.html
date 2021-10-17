@@ -1,0 +1,8 @@
+<div fxLayout="row">
+<label fxFlex="23" class="detail-name">{{name}}</label>
+  <mat-chip-list *ngIf="isList">
+    <mat-chip *ngFor="let val of list">{{val}}</mat-chip>
+  </mat-chip-list>
+  <div *ngIf="!isList" class="detail-value">{{value}}</div>
+</div>
+<hr>

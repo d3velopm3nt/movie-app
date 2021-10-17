@@ -1,1 +1,23 @@
-<p>movie-item works!</p>
+<div class="container" fxFlex="100">
+  <div fxLayout="row">
+    <img [src]="movie.Poster" class="poster" />
+    <div fxLayout="column" class="details">
+
+        <h3>{{movie.Title}}</h3>
+    
+        <strong>Runtime: {{movie.Runtime}}</strong>
+        <div fxLayout="row" fxLayoutAlign="start start">
+      <div class="year">{{movie.Year}}</div>
+      <label class="type" [ngClass]="movie.Type | searchType">{{movie.Type}}</label>
+      </div>
+      <div fxLayout="column">
+        <strong>Plot</strong>
+        <label>{{movie.Plot}}</label>
+      </div>
+      <button mat-button (click)="clickDetails()">{{detailsButtonText}}</button>
+    </div>
+
+
+  </div>
+  <movie-details *ngIf="showDetail" [movie]="movie"></movie-details>
+</div>

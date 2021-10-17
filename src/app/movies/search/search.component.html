@@ -1,8 +1,9 @@
-<div class="container">
+<div class="container" >
   <input fxFlex="100" [(ngModel)]="searchText" placeholder="Search for a movie"/>
 </div>
+<label  class="error" *ngIf="notFound">No Results Found</label>
 <div class="container" fxLayout="row" fxLayoutAlign="center center">
-  <button fxFlex="40" mat-stroked-button>Cancel</button>
-  <button fxFlex="40" mat-stroked-button (click)="search()">Search</button>
+<button fxFlex="40" mat-stroked-button>Cancel</button>
+<button fxFlex="40" mat-stroked-button (click)="search()" [disabled]="searchText === '' ? true : false">Search</button>
 </div>
 

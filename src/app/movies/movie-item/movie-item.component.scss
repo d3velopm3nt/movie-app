@@ -1,0 +1,51 @@
+:host{
+  margin: 10px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+  border: solid 0.1px gray ;
+  .poster{
+    height: 200px;
+    width: 140px;
+    border: solid 0.1px black;
+  }
+
+  .details{
+    margin-left: 20px;
+    display: flex;
+  }
+
+  .year{
+    padding: 0px 10px 0 10px;
+    background-color:darkgoldenrod;
+    //max-width:100px;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+
+  }
+
+  .type {
+    // position: absolute;
+    // left: 1;
+    margin:10px;
+    border-radius: 40px;
+    border: solid 0.1px;
+    padding: 0px 10px 0 10px;
+  }
+
+  .movie-type{
+
+    background-color: plum;
+
+  }
+  .series-type{
+
+    background-color: rgb(16, 122, 16);
+  }
+
+  .episode-type{
+
+    background-color: lightsalmon;
+  }
+
+}

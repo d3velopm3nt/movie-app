@@ -1,3 +1,7 @@
-<div class="container" fxLayout="column" fxLayoutAlign="center start">
+<div class="container" fxLayout="column" fxLayoutAlign="center center">
 <search></search>
+
+<div fxLayout="row wrap">
+  <movie-item *ngFor="let movie of movies$ | async" [movie]="movie" fxFlex="100"></movie-item>
+</div>
 </div>
