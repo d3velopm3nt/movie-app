@@ -2,9 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.10.
 
+The application is styled with Angular Material, Flex-layout.
+
 This is a PWA application that can be downloaded and installed on you mobile or desktop device.
 
-The functionality allows a user to search for a movie using OMDBAPI The Open Movie Database. he OMDb API is a RESTful web service to obtain movie information
+The functionality allows a user to search for a movie using OMDBAPI The Open Movie Database.(http://www.omdbapi.com) he OMDb API is a RESTful web service to obtain movie information
 
 ## Description
 The user can search for any movie and the application will retrieve all available information and display with the poster and IMDB ratingand views. The user can click and view more information.
