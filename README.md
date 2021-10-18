@@ -1,27 +1,21 @@
-# MovieApp
+# MovieApp - AKA Binger
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.10.
 
-## Development server
+This is a PWA application that can be downloaded and installed on you mobile or desktop device.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The functionality allows a user to search for a movie using OMDBAPI The Open Movie Database. he OMDb API is a RESTful web service to obtain movie information
 
-## Code scaffolding
+## Description
+The user can search for any movie and the application will retrieve all available information and display with the poster and IMDB ratingand views. The user can click and view more information.
+1. Plot 
+2. Film Crew
+3. Movie Details
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## IMDB Hyperlink
+The user is able to link on the IMDB logo and it will open a new tab of the movie, series in IMDB.
 
-## Build
+## Search Filter
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+The application has a search filter which can be used to set the To and From Year the user wants to search. This will bring back the list of all movies in the range of the year filtered.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
