@@ -9,7 +9,7 @@ This is a PWA application that can be downloaded and installed on you mobile or 
 The functionality allows a user to search for a movie using OMDBAPI The Open Movie Database.(http://www.omdbapi.com) he OMDb API is a RESTful web service to obtain movie information
 
 ## Description
-The user can search for any movie and the application will retrieve all available information and display with the poster and IMDB ratingand views. The user can click and view more information.
+The user can search for any movie and the application will retrieve all available information and display with the poster,type, IMDB rating, and votes. The user can click and view more information.
 1. Plot 
 2. Film Crew
 3. Movie Details
