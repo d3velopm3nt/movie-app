@@ -22,8 +22,8 @@ export class SearchComponent implements OnInit {
     try{
       this.notFound =false;
       var year = 1990;
+      this.movieService.searchMovie(this.searchText);
       while(year < 2022){
-        this.movieService.searchMovie(this.searchText);
         year += 1;
       }
 

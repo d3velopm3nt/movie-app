@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { SearchTypePipe } from '../pipes/search-type.pipe';
 
 import { MovieItemComponent } from './movie-item.component';
 
@@ -8,7 +9,7 @@ describe('MovieItemComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MovieItemComponent ]
+      declarations: [ MovieItemComponent,SearchTypePipe ],providers:[SearchTypePipe]
     })
     .compileComponents();
   });

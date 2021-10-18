@@ -39,6 +39,6 @@ const routes:Routes = [
     HttpClientModule,
     MatChipsModule
   ],
-  providers:[MovieService]
+  providers:[MovieService,SearchTypePipe]
 })
 export class MoviesModule { }

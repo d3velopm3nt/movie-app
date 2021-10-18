@@ -1,4 +1,6 @@
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { MovieService } from '../services/movie.service';
 
 import { MoviesLayoutComponent } from './movies-layout.component';
 
@@ -8,7 +10,10 @@ describe('MoviesLayoutComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MoviesLayoutComponent ]
+      declarations: [ MoviesLayoutComponent ], providers:[MovieService],
+      imports: [
+        HttpClientTestingModule
+      ]
     })
     .compileComponents();
   });

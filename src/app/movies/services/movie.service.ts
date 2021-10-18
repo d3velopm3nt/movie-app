@@ -14,20 +14,25 @@ export class MovieService{
   }
 
   searchMovie(title:string,year:number =0){
-    var yearparam =  year > 0 ? `&y=${year}` : "";
-    var plot = "&plot=full";
-    var url =  `${environment.omdbapiBase}?t=${title}${yearparam }&apikey=${environment.apiKey}`;
-    this.http.get<MovieModel>(url).pipe().subscribe(movie=>{
+   this.getMovie(title,year).pipe().subscribe(movie=>{
       if(movie){
         debugger
-        if(movie.Error)
+        if(!movie.Response)
         this.movieNotFound.next();
-        else if(this.movies.findIndex(x=>x.Title === movie.Title) === -1){
+        else if(this.movies.findIndex(x=>x === movie) === -1){
           this.movies.unshift(movie)
           this.onMoviesUpdated.next(this.movies);
         }
       }
     });
+  }
+
+  getMovie(title:string,year:number =0):Observable<MovieModel>{
+    var yearparam =  year > 0 ? `&y=${year}` : "";
+    var plot = "&plot=full";
+    var url =  `${environment.omdbapiBase}?t=${title}${yearparam }&apikey=${environment.apiKey}`;
+    debugger
+    return this.http.get<MovieModel>(url)
 
   }
 }

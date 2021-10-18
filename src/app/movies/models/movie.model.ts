@@ -29,5 +29,4 @@ export interface MovieModel {
   Production: string;
   Website: string;
   Response: string;
-  Error:string;
 }
