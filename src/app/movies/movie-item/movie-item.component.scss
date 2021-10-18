@@ -1,9 +1,12 @@
+
+@import '../../../scss/colors';
+
 :host{
   margin: 10px;
-  width: 100%;
   padding: 5px;
+  max-width: 400px;
   border-radius: 10px;
-  border: solid 0.1px gray ;
+  //border: solid 0.1px gray ;
   .poster{
     height: 200px;
     width: 140px;
@@ -17,7 +20,7 @@
 
   .year{
     padding: 0px 10px 0 10px;
-    background-color:darkgoldenrod;
+    background-color: $color-search;
     //max-width:100px;
     border-radius: 10px;
     margin: 10px 0 10px 0;
@@ -29,23 +32,23 @@
     // left: 1;
     margin:10px;
     border-radius: 40px;
-    border: solid 0.1px;
+    //border: solid 0.1px;
     padding: 0px 10px 0 10px;
   }
 
   .movie-type{
 
-    background-color: plum;
+    background-color: $color-movie;
 
   }
   .series-type{
 
-    background-color: rgb(16, 122, 16);
+    background-color: $color-series;
   }
 
   .episode-type{
 
-    background-color: lightsalmon;
+    background-color: $color-episode;
   }
 
 }

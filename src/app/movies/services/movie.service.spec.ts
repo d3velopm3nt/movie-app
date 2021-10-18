@@ -62,19 +62,13 @@ describe('MovieService', () => {
   var movieTitle = "Iron man 2";
   it(`subscribe method should be called`, fakeAsync(() =>{
     let servicespy = spyOn(service,'getMovie').and.returnValue(of(mockMovie))
-    let movieService = jasmine.createSpyObj("movieService",[])
     let subspy = spyOn(service.getMovie(movieTitle),'subscribe');
     debugger
     service.searchMovie(movieTitle);
-    tick(10000);
+    tick();
 
     expect(servicespy).toHaveBeenCalledBefore(subspy);
     expect(subspy).toHaveBeenCalled();
-
-    service.getMovie(movieTitle).subscribe(x=>{
-      flush();
-      expect(x).toBeGreaterThan(0);
-    })
   }))
 
   it(`should get movie ${movieTitle} in list`,( fakeAsync(() => {

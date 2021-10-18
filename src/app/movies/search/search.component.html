@@ -1,9 +1,21 @@
-<div class="container" >
-  <input fxFlex="100" [(ngModel)]="searchText" placeholder="Search for a movie"/>
-</div>
-<label  class="error" *ngIf="notFound">No Results Found</label>
-<div class="container" fxLayout="row" fxLayoutAlign="center center">
-<button fxFlex="40" mat-stroked-button>Cancel</button>
-<button fxFlex="40" mat-stroked-button (click)="search()" [disabled]="searchText === '' ? true : false">Search</button>
-</div>
+<div class="container">
+  <input fxFlex="100" [(ngModel)]="searchText" placeholder="Search for a movie" />
 
+</div>
+<label class="error" *ngIf="notFound">No Results Found</label>
+<div class="container" fxLayout="row" fxLayoutAlign="center center">
+  <button fxFlex="40" mat-stroked-button (click)="cancel()">Cancel</button>
+  <button fxFlex="40" [ngClass]="{'search-button': searchText !== ''}" mat-stroked-button (click)="search()"
+    [disabled]="searchText === '' ? true : false">Search</button>
+  <button fxFlex="40" mat-stroked-button (click)="clickFilter()">Filter</button>
+</div>
+<div fxLayoutAlign="center center"  fxLayout="column">
+
+  <div fxLayout="row" *ngIf="showFilter">
+    <input type=number class="filter" [(ngModel)]="startYear" placeholder="Year From">
+    <input type=number class="filter" [(ngModel)]="endYear" placeholder="Year To">
+    <button mat-button (click)="clearFilter()">
+      Clear
+    </button>
+  </div>
+</div>

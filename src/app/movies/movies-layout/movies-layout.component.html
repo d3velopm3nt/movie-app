@@ -1,7 +1,8 @@
 <div class="container" fxLayout="column" fxLayoutAlign="center center">
 <search></search>
-
+<label >Total Results: {{(movies$ | async)?.length}}</label>
 <div fxLayout="row wrap">
-  <movie-item *ngFor="let movie of movies$ | async" [movie]="movie" fxFlex="100"></movie-item>
+  <mat-spinner *ngIf="loading"></mat-spinner>
+  <movie-item *ngFor="let movie of movies$ | async" [movie]="movie"></movie-item>
 </div>
 </div>

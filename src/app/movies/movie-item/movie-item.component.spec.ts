@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { SearchTypePipe } from '../pipes/search-type.pipe';
+import { SearchTypePipe } from '../pipes/search-type/search-type.pipe';
 
 import { MovieItemComponent } from './movie-item.component';
 
