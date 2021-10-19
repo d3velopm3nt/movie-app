@@ -1,6 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
+html, body { 
+  height: 100%;
+  background-image: url('./assets//img/ironman.jpg');
+  background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
