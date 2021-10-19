@@ -1,0 +1,91 @@
+{
+  "configVersion": 1,
+  "timestamp": 1634628127416,
+  "index": "https://d3velopm3nt.github.io/movie-app/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://d3velopm3nt.github.io/movie-app/534.cfc5a08261f853a0e53b.js",
+        "https://d3velopm3nt.github.io/movie-app/favicon.ico",
+        "https://d3velopm3nt.github.io/movie-app/index.html",
+        "https://d3velopm3nt.github.io/movie-app/main.4fe0880e384e8e721044.js",
+        "https://d3velopm3nt.github.io/movie-app/manifest.webmanifest",
+        "https://d3velopm3nt.github.io/movie-app/polyfills.0f499596d209efd4d635.js",
+        "https://d3velopm3nt.github.io/movie-app/runtime.3dccc6cee6832fb46a89.js",
+        "https://d3velopm3nt.github.io/movie-app/styles.fe5d49939875063fb9fe.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://d3velopm3nt.github.io/movie-app/assets/icons/icon-128x128.png",
+        "https://d3velopm3nt.github.io/movie-app/assets/icons/icon-144x144.png",
+        "https://d3velopm3nt.github.io/movie-app/assets/icons/icon-152x152.png",
+        "https://d3velopm3nt.github.io/movie-app/assets/icons/icon-192x192.png",
+        "https://d3velopm3nt.github.io/movie-app/assets/icons/icon-384x384.png",
+        "https://d3velopm3nt.github.io/movie-app/assets/icons/icon-512x512.png",
+        "https://d3velopm3nt.github.io/movie-app/assets/icons/icon-72x72.png",
+        "https://d3velopm3nt.github.io/movie-app/assets/icons/icon-96x96.png",
+        "https://d3velopm3nt.github.io/movie-app/assets/img/imdb.png",
+        "https://d3velopm3nt.github.io/movie-app/assets/img/ironman.jpg",
+        "https://d3velopm3nt.github.io/movie-app/assets/img/movie.png",
+        "https://d3velopm3nt.github.io/movie-app/ironman.5128975bfe3902dd64b3.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://d3velopm3nt.github.io/movie-app/534.cfc5a08261f853a0e53b.js": "5d9a4e51c7f24c41fffa883eea9a485ffbb1d4e6",
+    "https://d3velopm3nt.github.io/movie-app/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://d3velopm3nt.github.io/movie-app/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://d3velopm3nt.github.io/movie-app/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://d3velopm3nt.github.io/movie-app/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://d3velopm3nt.github.io/movie-app/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://d3velopm3nt.github.io/movie-app/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://d3velopm3nt.github.io/movie-app/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://d3velopm3nt.github.io/movie-app/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://d3velopm3nt.github.io/movie-app/assets/img/imdb.png": "6b3aa14eefa7ce5a33ba0913c86be16f48c9fd9e",
+    "https://d3velopm3nt.github.io/movie-app/assets/img/ironman.jpg": "39df1334d7e6b98643e6747d8669503f4d0c2f55",
+    "https://d3velopm3nt.github.io/movie-app/assets/img/movie.png": "3d5946b398615df73ac7e1416d34293514c19ac4",
+    "https://d3velopm3nt.github.io/movie-app/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://d3velopm3nt.github.io/movie-app/index.html": "b56c351be7c60d92007d3e3a11e7b93a44847e27",
+    "https://d3velopm3nt.github.io/movie-app/ironman.5128975bfe3902dd64b3.jpg": "39df1334d7e6b98643e6747d8669503f4d0c2f55",
+    "https://d3velopm3nt.github.io/movie-app/main.4fe0880e384e8e721044.js": "35195ee1cab4d0a0d8795c2d2cb070a837a88a14",
+    "https://d3velopm3nt.github.io/movie-app/manifest.webmanifest": "2ddc7b3d123f9e4155c171bd6992ce042aac9935",
+    "https://d3velopm3nt.github.io/movie-app/polyfills.0f499596d209efd4d635.js": "7ac87decbc0de88032521f1528079b6c72639091",
+    "https://d3velopm3nt.github.io/movie-app/runtime.3dccc6cee6832fb46a89.js": "32181a999d3f18c2bebfd200008055565d8736a8",
+    "https://d3velopm3nt.github.io/movie-app/styles.fe5d49939875063fb9fe.css": "d79e194b841767f859996ff676a6ff01cc1d3116"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
