@@ -1,27 +1,27 @@
-# MovieApp
+# MovieApp - AKA Binger
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.10.
 
-## Development server
+The application is styled with Angular Material, Flex-layout.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This is a PWA application that can be downloaded and installed on you mobile or desktop device.
 
-## Code scaffolding
+## Setup
+The API KEY to access the OMDBAPI is stored in the environment file. 
+This will need to be changed to get successful search results.  Use Link to get Free Key (http://www.omdbapi.com/apikey.aspx)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The functionality allows a user to search for a movie using OMDBAPI The Open Movie Database.(http://www.omdbapi.com). OMDb API is a RESTful web service to obtain movie information
 
-## Build
+## Description
+The user can search for any movie and the application will retrieve all available information and display with the poster,type, IMDB rating, and votes. The user can click and view more information.
+1. Plot 
+2. Film Crew
+3. Movie Details
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## IMDB Hyperlink
+The user is able to link on the IMDB logo and it will open a new tab of the movie, series in IMDB.
 
-## Running unit tests
+## Search Filter
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The application has a search filter which can be used to set the To and From Year the user wants to search. This will bring back the list of all movies in the range of the year filtered.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
